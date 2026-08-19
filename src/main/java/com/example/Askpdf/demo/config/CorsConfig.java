@@ -13,7 +13,7 @@ public class CorsConfig implements WebMvcConfigurer {
         registry.addMapping("/api/**")
                 .allowedOrigins(
                         "http://localhost:5173",          // local Vite dev
-                        "https://*.vercel.app"            // your Vercel frontend
+                        "https://padika-mudila.vercel.app"            // your Vercel frontend
                 )
                 .allowedMethods("GET", "POST", "DELETE", "OPTIONS")
                 .allowedHeaders("*");
